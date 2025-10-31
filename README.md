@@ -5,3 +5,8 @@ npm run dev
 
 Commands :
 "rsc" command => function component create 
+
+JSX : 
+
+[src\assets\image.png
+](Conditiona rending)

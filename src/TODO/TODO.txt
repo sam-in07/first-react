@@ -1,1 +1,54 @@
 "rsc" command => function component create 
+
+IF else :
+ {marks>=33 ? 
+      // if
+      <h1 style={{color:'green'}}>You are Passed</h1>  
+      // else
+      : <h1 style={{color:'red'}}>You are Failed</h1>
+      }
+
+      Imme Y- INVoked : 
+       {( ()=>{
+        if(marks>=33){
+          return <h1 style={{textAlign:'center', color:'green'}}>You are Passed</h1>
+        }
+        else if(marks<33){
+          return <h1 style={{textAlign:'center', color:'red'}}>You are Failed</h1>
+        }
+      }
+
+      )}
+
+LOOP :
+{
+        city.map( (item, index) => <h2 key={index}>{index + 1}. {item}</h2> )
+      }
+
+
+JSX কন্ডিশনাল রেন্ডারিং :
+IF-else 
+
+const LoginStatusBtn=(Status)=>{
+  if(Status){
+    return <button>Logout</button>
+  }
+  else {
+     return <button>Login</button>
+  }
+}
+
+return (
+ <div>
+ <h1>
+     Login  Status  {LoginStatusBtn(true)}
+</h1>
+</div>
+);
+
+Switch : 
+
+
+
+
+JSX কন্ডিশনাল রেন্ডারিং IIF :
