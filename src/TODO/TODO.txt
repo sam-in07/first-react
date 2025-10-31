@@ -1,0 +1,1 @@
+"rsc" command => function component create 
